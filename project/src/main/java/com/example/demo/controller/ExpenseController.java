@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.model.Expense;
 import com.example.demo.service.ExpenseService;
+import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,7 +28,7 @@ public class ExpenseController {
 
     // POST - Add a new expense
     @PostMapping
-    public Expense addExpense(@RequestBody Expense expense) {
+    public Expense addExpense(@RequestBody @Valid Expense expense) {
         return expenseService.saveExpense(expense);
     }
 
