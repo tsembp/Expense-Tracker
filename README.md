@@ -6,6 +6,14 @@ A simple Expense Tracker project built with Spring Boot and Maven for managing p
 - Add new expenses with details.
 - View a list of all expenses.
 
+## Screenshots
+### Dashboard
+<img src="assets/app-preview.png" alt="Dashboard View" width="400">
+
+### Database Records
+<img src="assets/database-entries.png" alt="Dashboard View" width="400">
+
+
 ## Technologies Used
 - Java      (Spring Boot)
 - MySQL     (Database)
